@@ -6,13 +6,17 @@
 body {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  background-color: rgb(34, 34, 34);
+}
+body .vh {
+  height: 110vh;
   display: flex;
   flex-direction: column;
   align-content: center;
   color: white;
   background-image: url(https://cdn.discordapp.com/attachments/1005639572828471327/1059638555531563118/1_5lyavS59mazOFnb55Z6znQ_2.png);
   background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 body #im {
   padding-left: 33px;
@@ -98,7 +102,6 @@ body .contenido .fila button {
   margin-top: 15px;
 }
 body .vh2 {
-  margin: 5px;
   height: 100vh;
   background-color: black;
   display: flex;
@@ -107,6 +110,8 @@ body .vh2 {
   text-align: center;
   font-family: Roboto;
   font-weight: 400;
+  color: white;
+  margin-top: 10px;
 }
 body .vh2 h1 {
   font-size: 40px;
@@ -116,4 +121,14 @@ body .vh2 h1 {
 body .vh2 h2 {
   width: 65vh;
   font-size: 18px;
+}
+body .vh2 img {
+  padding-top: 20px;
+}
+body .vh2 .Vanimat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 17vh;
+  padding-right: 70vh;
 }/*# sourceMappingURL=index.css.map */
