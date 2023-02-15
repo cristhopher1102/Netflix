@@ -1,134 +1,118 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  display: flex;
-  flex-direction: column;
   background-color: rgb(34, 34, 34);
-}
-body .vh {
-  height: 110vh;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  color: white;
-  background-image: url(https://cdn.discordapp.com/attachments/1005639572828471327/1059638555531563118/1_5lyavS59mazOFnb55Z6znQ_2.png);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-body #im {
-  padding-left: 33px;
-  padding-top: 7px;
+  padding-bottom: 120px;
 }
 body nav {
+  background-image: url(https://cdn.discordapp.com/attachments/1005639572828471327/1059638555531563118/1_5lyavS59mazOFnb55Z6znQ_2.png);
+  height: 650px;
+  padding-bottom: 20px;
+}
+body .barraNav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-right: 45px;
 }
-body nav input {
-  background-color: rgba(0, 0, 0, 0);
+body img {
+  padding-left: 40px;
+  margin-top: -15px;
+}
+body .cajaBotones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-right: 30px;
+}
+body #botonTras {
+  font-family: Roboto;
+  font-size: 90%;
+  background-color: rgba(0, 0, 0, 0.3294117647);
   color: white;
-  height: 37px;
-  width: 100px;
-  border-color: white;
-  border-radius: 2px;
-  margin-right: 25px;
-  font-size: 14px;
   border-style: solid;
-  border-width: 0.2px;
-  margin-top: 5px;
+  border-color: white;
+  border-width: 1px;
+  padding: 8px;
+  width: auto;
+  border-radius: 3px;
 }
-body nav button {
-  background-color: red;
+body #botoIniciar {
+  font-family: Roboto;
+  font-weight: 400;
+  background-color: rgb(229, 9, 20);
   color: white;
+  border-radius: 3px;
   border: none;
-  height: 37px;
+  padding: 7px 17px;
   width: 130px;
-  border-radius: 5px;
-  font-size: 17px;
-  margin-top: 5px;
+  font-size: 16px;
 }
-body .contenido {
-  font-family: Roboto;
+body .textoPrincipal {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin: 80px;
   text-align: center;
+  font-family: Roboto;
+  color: white;
+  margin-bottom: -40px;
 }
-body .contenido h1 {
-  font-size: 50px;
-  width: 75vh;
-  padding-bottom: 10px;
-  padding-top: 15px;
+body h1 {
+  padding-top: 80px;
+  font-size: 3.125rem;
+  max-width: 640px;
 }
-body .contenido h2 {
-  font-size: 28px;
-  width: 95vh;
-  font-weight: 400;
-  padding-bottom: 12px;
-}
-body .contenido h3 {
-  font-size: 18px;
-  font-weight: 400;
-  width: 65vh;
-}
-body .contenido .fila {
+body .textoPrincipal1 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 10px;
+  justify-content: center;
 }
-body .contenido .fila input {
-  height: 35px;
-  width: 75vh;
-  padding: 7px;
-  border-radius: 2px;
-  border: none;
-  margin-top: 5px;
+body h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: white;
 }
-body .contenido .fila button {
+
+h4 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+.emailbar {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding: 20px;
+  width: 400px;
   font-size: 17px;
-  font-weight: 500;
+}
+
+button {
   background-color: rgb(227, 8, 19);
+  color: white;
+  font-size: 25px;
   border: none;
-  color: white;
-  height: 7vh;
-  width: 23vh;
-  padding-top: 4px;
-  margin-top: 15px;
+  width: 200px;
 }
-body .vh2 {
-  height: 100vh;
+
+section {
+  color: white;
   background-color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+}
+section h1 {
   font-family: Roboto;
-  font-weight: 400;
-  color: white;
-  margin-top: 10px;
-}
-body .vh2 h1 {
-  font-size: 40px;
-  margin-top: 68px;
-  padding-bottom: 5px;
-}
-body .vh2 h2 {
-  width: 65vh;
-  font-size: 18px;
-}
-body .vh2 img {
-  padding-top: 20px;
-}
-body .vh2 .Vanimat {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-bottom: 17vh;
-  padding-right: 70vh;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: -8px;
+}
+section h2 {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  padding-left: 130px;
 }/*# sourceMappingURL=index.css.map */
